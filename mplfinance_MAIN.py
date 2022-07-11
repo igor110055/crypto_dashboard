@@ -85,8 +85,6 @@ def animate(i):
 
     data = getminutedata(asset, '1m', '30')
 
-
-
     ax.clear()
     av.clear()
 
