@@ -308,7 +308,7 @@ def changeAsset(what):
 
 
 # Main Class, describes actual GUI
-class SeaofBTCapp(tk.Tk):
+class CryptoDashboard(tk.Tk):
     def __init__(self):
         tk.Tk.__init__(self)
         tk.Tk.iconbitmap(self, default="icon.ico")
@@ -456,7 +456,7 @@ class ETH_Page(tk.Frame):
         canvas._tkcanvas.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
 
-app = SeaofBTCapp()
+app = CryptoDashboard()
 app.geometry("1280x720")
 ani = animation.FuncAnimation(fig, animate, interval=1000)
 app.mainloop()
